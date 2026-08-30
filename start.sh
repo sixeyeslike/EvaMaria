@@ -1,1 +1,2 @@
-echo "EOL: Exiting..."
+python3 -m http.server $PORT &
+python3 bot.py
